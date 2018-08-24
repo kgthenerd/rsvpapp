@@ -4,8 +4,8 @@
 replicaCount: 1
 env: mongodb
 image:
-  repository: draft
-  tag: dev
+  repository: 10.97.192.174:5000/kgthenerd/rsvpapp
+  tag: 0.0.3
   pullPolicy: IfNotPresent
 service:
   name: rsvpapp
